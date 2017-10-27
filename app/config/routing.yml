@@ -1,0 +1,12 @@
+tapas:
+    resource: "@tapasBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+cervezas:
+    resource: "@CervezasBundle/Resources/config/routing.yml"
+    prefix:   /cervezas
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation

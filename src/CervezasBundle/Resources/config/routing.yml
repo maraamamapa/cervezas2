@@ -1,0 +1,6 @@
+cervezas_homepage:
+    path:     /
+    defaults: { _controller: CervezasBundle:Default:index }
+cervezas_cervezaID:
+    path:     /TipoCerveza/{id}
+    defaults: { _controller: CervezasBundle:cerveza:cerveza }

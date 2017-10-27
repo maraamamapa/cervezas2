@@ -1,0 +1,4 @@
+services:
+#    cervezas.example:
+#        class: CervezasBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
