@@ -1,0 +1,16 @@
+{% extends '::base.html.twig' %}
+{% block body %}
+
+
+{% for fila in TablaCervezas %}
+<div class="w3-card-4" style="width:30%">
+<img src="{{ asset('img/san.gif') }}" alt="Norway" style="width:100%">
+<div class="w3-container w3-center">
+  <p>Nombre:{{ fila.nombre }}</p>
+  <p>Pais:{{ fila.pais }}</p>
+  <p>Poblacion:{{ fila.poblacion }}</p>
+</div>
+</div>
+{% endfor %}
+
+{% endblock %}
