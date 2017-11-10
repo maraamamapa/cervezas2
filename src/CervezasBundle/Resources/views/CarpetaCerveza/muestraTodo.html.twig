@@ -1,0 +1,6 @@
+{% for ob in TablaCervezas %}
+  <a href="{{ path('cervezas_update', {'id': ob.id  }) }}">Actualizar</a>
+  {{ob.nombre}}
+  <hr>
+
+{% endfor %}

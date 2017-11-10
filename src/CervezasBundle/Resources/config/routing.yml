@@ -8,3 +8,15 @@ cervezas_cervezaID:
 cervezas_crear:
     path:     /crear/{nombre}/{pais}
     defaults: { _controller: CervezasBundle:cerveza:crearCerveza }
+
+cervezas_create:
+    path:     /create
+    defaults: { _controller: CervezasBundle:cerveza:crearCervezaFormulario }
+
+cervezas_update:
+    path:     /update/{id}
+    defaults: { _controller: CervezasBundle:cerveza:actualizarCervezasFormulario }
+
+cervezas_muestraTodo:
+    path:     /todo
+    defaults: { _controller: CervezasBundle:cerveza:muestraTodo }
